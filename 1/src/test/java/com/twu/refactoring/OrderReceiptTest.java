@@ -8,7 +8,8 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 
-public class OrderReceiptTest {
+public class
+OrderReceiptTest {
     @Test
     public void shouldPrintCustomerInformationOnOrder() {
         Order order = new Order("Mr X", "Chicago, 60601", new ArrayList<LineItem>());
